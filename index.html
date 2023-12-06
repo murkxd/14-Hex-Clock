@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Hex Clock</title>
+</head>
+<body>
+    <div id="navbar">
+        <button onclick="showTimerInput()">Nastavení timeru</button>
+        <button onclick="cancelTimer()">Zrušit timer</button>
+    </div>
+    <div id="hex-clock"></div>
+    <div id="timer-input-container">
+        <input type="number" id="timer-input" value="0">
+        <button onclick="startTimer()">Start</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
